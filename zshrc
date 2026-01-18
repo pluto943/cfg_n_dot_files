@@ -6,18 +6,6 @@ zshrc_version_info="Version 14, 18.01.2026"
 #   
 # Changelog
 #
-# V11, 9.1.2026
-# setopt interactive_comments hinzu
-#
-# V12, 15.1.2026
-#  Reorga und Inline Doku
-#  OS Auswahl
-#
-# V13, 17.1.2026
-#  neovim wird EDITOR
-#  zshrc_version Optimierung
-#  zshrc_fetch_it aktiv geschaltet
-#
 # V14, 18.ß1.2026
 #  e und p alias
 #  eza Anpassungen
