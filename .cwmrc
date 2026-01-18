@@ -1,7 +1,3 @@
-wm Icewm "/usr/local/bin/icewm"
-wm twm "/usr/local/bin/twm"
-wm "Icewm Try" "/usr/local/bin/icewm"
-
 # Any entry here is shown in the application menu
 command Xterm           xterm
 command Firefox         firefox
@@ -28,11 +24,8 @@ fontname "monospace:pixelsize=22:style=semicondensed"
 # snap windows to edges at 6 pixels distance
 snapdist 6
 
-
-
 # Ctrl Alt t soll auch hier ein Terminal aufmachen
 bind-key CM-t   terminal
-
 
 
 #
