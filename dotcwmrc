@@ -1,0 +1,41 @@
+wm Icewm "/usr/local/bin/icewm"
+wm twm "/usr/local/bin/twm"
+wm "Icewm Try" "/usr/local/bin/icewm"
+
+# Any entry here is shown in the application menu
+command Xterm           xterm
+command Firefox         firefox
+command VLC             vlc
+command top             "xterm -title top -e top"
+command htop            "xterm -title htop -e htop"
+command Batterieanzeige  "xbattbar"
+     
+borderwidth 3
+
+# Set the color of the borders
+color inactiveborder grey70
+
+color activeborder grey20
+
+# set font for menus
+#fontname "fixed:pixelsize=18:style=semicondensed"
+#fontname "sans-serif:pixelsize=18:bold"
+#fontname "sans-serif:pixelsize=22"
+#fontname "sans-serif:pixelsize=22:bold"
+#fontname "sans-serif:pixelsize=22:style=semicondensed"
+fontname "monospace:pixelsize=22:style=semicondensed"
+
+# snap windows to edges at 6 pixels distance
+snapdist 6
+
+
+
+# Ctrl Alt t soll auch hier ein Terminal aufmachen
+bind-key CM-t   terminal
+
+
+
+#
+#  EOF
+#
+
