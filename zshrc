@@ -93,17 +93,6 @@ compinit
 HOME_BIN="~/bin"
 HOME_BIN_LONG=~/bin
 if [[ -r "$HOME_BIN_LONG" ]] ; then
-	# 17.01.2026 MKL
-	# Wenn das "neue" if sauber funktioniert koennen die 
-	# auskommentierten Zeilen mal weg.
-	#
-	# Probleme mit der doppelten Negierung. Daher der "doofe" else Teil
-	#if [[ "$PATH" =~ "(^|:)$HOME_BIN(:|$)" || "$PATH" =~ "(^|:)$HOME_BIN_LONG(:|$)" ]] ; then 
-	#if [[ "$PATH" =~ "$HOME_BIN" || "$PATH" =~ "$HOME_BIN_LONG" ]] ; then 
-	#	export PATH
-	#else
-	#	export PATH="~/bin:$PATH"
-	#fi
 	if ! [[ "$PATH" =~ "$HOME_BIN" || "$PATH" =~ "$HOME_BIN_LONG" ]] ; then 
 		export PATH="~/bin:$PATH"
 	fi
@@ -186,7 +175,7 @@ setopt no_beep
 setopt interactive_comments
 
 # Entfernt '/' aus Wortzeichen
-# Alt-d und Ctrl-d stoppen beimVerzeichnistrennen
+# Alt-d und Ctrl-d stoppen beim Verzeichnistrennen
 WORDCHARS=${WORDCHARS:s:/:}
 
 # uname und alles in kleinbuchstaben wandeln
