@@ -1,0 +1,78 @@
+! Reload without X11 Restart:
+! xrdb -load ~/.Xdefaults
+! xrdb -merge ~/.Xdefaults
+!
+! Neue Methode mit .Xresources
+! xrdb -load ~/.Xresources
+! xrdb -merge ~/.Xresources
+
+! Format
+! application.component.subcomponent.subcomponent.attribute: value
+
+
+XTerm*loginShell:true
+XTerm*saveLines: 4096
+!xterm*faceName: Monospace
+!xterm*faceSize: 6
+!Xterm*faceName: Monospace
+!Xterm*faceName: Schumacher
+!Xterm*faceName: Schumacher Clean
+!Xterm*faceName:  UbuntuMono Nerd Font Mono
+!Xterm*faceName:  Ubuntu Nerd Font Mono
+!Xterm*faceName:  OverpassM Nerd Font Mono
+!Xterm*faceSize: 16
+
+XTerm*background:   lightyellow
+
+XTerm.vt100.geometry:   100x40
+!XTerm*scrollBar:       true
+XTerm*scrollBar:        false
+XTerm*rightScrollBar:   true
+!
+! Optional: Besseres Rendering
+!XTerm*renderFont: true
+
+
+! Schriftart und Größe (Xft-Syntax)
+XTerm*faceName: UbuntuMono Nerd Font:style=Regular
+XTerm*faceSize: 12
+
+
+! Wichtig: Schaltet Xft-Unterstützung explizit ein
+XTerm*renderFont: true
+
+
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+! Optional: DPI-Wert für korrekte Skalierung (Standard oft 96)
+!! So wird es schon sehr gross
+!Xft.dpi: 144
+Xft.dpi: 120
+
+
+
+
+Xcursor*theme: Adwaita
+!Xcursor*size:  32
+!Xcursor*size:  42
+Xcursor*size:  38
+!Xcursor.theme: whiteglass 
+
+!  Font Einstellungen und Tuning
+!
+!  Alle Fonts des Systems anzeigen
+!# fc-list
+!
+!  Verschiedene Fonts testen
+!# xterm -fa "Mononoki Nerd Font"
+!# xterm -fa "Mononoki Nerd Font:size=8"
+!# xterm -fa "Adobe New Century Schoolbook:size=8"
+!# xterm -fa "Fixed:size=8"
+!# xterm -fa "Monospace:size=11"
+
+!  EOF
+
+
