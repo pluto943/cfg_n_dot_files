@@ -15,15 +15,10 @@ Find config files for various programs here.
 
 ### Installing
 
-* Mostly the file 
-* Any modifications needed to be made to files/folders
-
+* Mostly the file are located in the users home directory.
 
 ## Version History
 
-* 2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 1
-    * Initial Release
+    * 01/2026 - Initial Release
 
