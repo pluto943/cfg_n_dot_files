@@ -9,12 +9,15 @@
 xrdb -merge ~/.Xresources
 
 
-# German lazout
+# German layout
 setxkbmap de
 
 # Trackpad langsamer machen
 xinput set-prop 10 "libinput Scrolling Pixel Distance" 40 
-
+xinput set-prop 10 "libinput Accel Speed" 0.1
+# Trackpoint langsamer machen
+xinput set-prop 11 "libinput Scrolling Pixel Distance" 40
+xinput set-prop 11 "libinput Accel Speed" 0.1
 
 
 if ! [ -S "$DBUS_SESSION_BUS_ADDRESS" ]; then 
