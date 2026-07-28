@@ -1,6 +1,7 @@
 # Any entry here is shown in the application menu
 command Xterm           xterm
 command Firefox         firefox
+command Chromium        chrome
 command VLC             vlc
 command top             "xterm -title top -e top"
 command htop            "xterm -title htop -e htop"
