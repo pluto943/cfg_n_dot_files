@@ -27,6 +27,13 @@ snapdist 6
 # Ctrl Alt t soll auch hier ein Terminal aufmachen
 bind-key CM-t   terminal
 
+# Other window manager
+# CM-w und dann in der Liste mit dem Fragezeichen lostippen
+# Dies generiert die Auswahl
+#
+# wm name fullpath
+wm fvwm3 /usr/local/bin/fvwm3
+wm fvwm2 /usr/X11R6/bin/fvwm
 
 #
 #  EOF
