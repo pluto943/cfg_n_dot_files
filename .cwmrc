@@ -32,8 +32,10 @@ bind-key CM-t   terminal
 # Dies generiert die Auswahl
 #
 # wm name fullpath
-wm fvwm3 /usr/local/bin/fvwm3
-wm fvwm2 /usr/X11R6/bin/fvwm
+#
+# FVWMs with Path from Openbsd
+wm FVWM3 /usr/local/bin/fvwm3
+wm FVWM2 /usr/X11R6/bin/fvwm
 
 #
 #  EOF
