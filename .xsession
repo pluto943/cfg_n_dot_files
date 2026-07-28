@@ -3,14 +3,15 @@
 # Sonst kleines Flackern bei Logout.
 #xsetroot -solid grey20
 
-
 /usr/local/bin/feh --bg-center   pic/background/Candair.jpg
 
 xrdb -merge ~/.Xresources
 
-
 # German layout
 setxkbmap de
+
+# xbanish verbirgt den Mauszeiger wenn getippt wird
+xbanish &
 
 # Trackpad langsamer machen
 xinput set-prop 10 "libinput Scrolling Pixel Distance" 40 
